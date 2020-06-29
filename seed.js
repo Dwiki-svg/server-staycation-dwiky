@@ -488,9 +488,9 @@ var data = [
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc903334'),
-        firstName: 'Esteban',
-        lastName: 'Salberto',
-        email: 'diosalberto@gmail.com',
+        firstName: 'Riza',
+        lastName: 'Kurnia Lestari',
+        email: 'riza19@gmail.com',
         phoneNumber: '082377954033'
       }
     ]
