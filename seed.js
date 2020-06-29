@@ -470,6 +470,27 @@ var data = [
           status: 'Proses',
           accountHolder: 'dk'
         }
+      },
+      {
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cee1'),
+        bookingStartDate: '06-30-2020',
+        bookingEndDate: '06-12-2020',
+        invoice: 1231231,
+        itemId: {
+          _id: mongoose.Types.ObjectId('5e96cbe292b97300fc902222'),
+          title: 'Village Riza kurnia lestari',
+          price: 7,
+          duration: 10,
+        },
+        total: 18,
+        memberId: mongoose.Types.ObjectId('5e96cbe292b97300fc903333'),
+        bankId: mongoose.Types.ObjectId('5e96cbe292b97300fc903323'),
+        payments: {
+          proofPayment: 'images/buktibayar.jpeg',
+          bankFrom: 'BNI',
+          status: 'Proses',
+          accountHolder: 'rz'
+        }
       }
     ]
   },
